@@ -43,5 +43,15 @@ Write a program that will read the input file `input.txt`, partition sort each l
 **Bonus**:  Use git to create commits as you develop the code including any design or redesign stages you go through developing the code.
 
 
-## to run the programme just call the script partition which take two arguments the input file and the output file
+## to run the programme 
+just call the script partition which take two arguments the input file and the output file
+
+for example:
+./partition 
+input file will be input.txt
+output file will be output.txt
+
+./partition input.txt my-output.txt
+input file will be input.txt
+output file will be my-output.txt
 

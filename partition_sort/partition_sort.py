@@ -43,8 +43,9 @@ def sort_line_sequences(line_sequences:list):
 
 import sys
 
-input_file_name = 'input.txt'
 if len(sys.argv) > 1:
     input_file_name = sys.argv[1]
+    sort_lines(get_lines(input_file_name))
+else:
+    print('NO Input FILE!')
 
-sort_lines(get_lines(input_file_name))
