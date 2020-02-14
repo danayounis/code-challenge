@@ -25,3 +25,18 @@ This simple code challenge can be done in any programming language of your choic
 Write a program that will read the input file `input.txt`, partition sort each line according to the partitioned sort method described above, and output the result to an output file `my-outupt.txt`.
 
 **Bonus**:  Use git to create commits as you develop the code including any design or redesign stages you go through developing the code.
+
+## to run the programme 
+just call the script rotate which take two arguments
+ 
+ 1) input file 
+ 2) output file
+
+for example:
+./rotate 
+input file will be input.txt
+output file will be output.txt
+
+./rotete input.txt my-output.txt
+input file will be input.txt
+output file will be my-output.txt
